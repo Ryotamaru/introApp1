@@ -64,6 +64,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="login:" destination="NFm-XY-0yw" eventType="touchUpInside" id="azD-l9-VIt"/>
                                     <segue destination="uup-97-HFH" kind="show" id="ZWx-Ty-QFt"/>
                                 </connections>
                             </button>
@@ -75,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9l2-cc-k7k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1094" y="145"/>
+            <point key="canvasLocation" x="1102" y="145"/>
         </scene>
         <!--Base View Controller-->
         <scene sceneID="xut-xc-xm2">

@@ -23,6 +23,13 @@
 		CE85C9AB246717C900F1BE22 /* start.mov in Resources */ = {isa = PBXBuildFile; fileRef = CE85C9AA246717C900F1BE22 /* start.mov */; };
 		CE85C9AD246719B000F1BE22 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85C9AC246719B000F1BE22 /* BaseViewController.swift */; };
 		CE8D9B8E24672CB900A28A2D /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D9B8D24672CB900A28A2D /* Page1ViewController.swift */; };
+		CE9191DC2467BA2D0077FD78 /* NewsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9191DB2467BA2D0077FD78 /* NewsItems.swift */; };
+		CE9191DE2467C94B0077FD78 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9191DD2467C94B0077FD78 /* WebViewController.swift */; };
+		CE9191E22467D3CD0077FD78 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9191E12467D3CD0077FD78 /* Page2ViewController.swift */; };
+		CE9191E42467D4370077FD78 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9191E32467D4370077FD78 /* Page3ViewController.swift */; };
+		CE9191E62467D49F0077FD78 /* Page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9191E52467D49F0077FD78 /* Page4ViewController.swift */; };
+		CE9191E82467D4D30077FD78 /* Page5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9191E72467D4D30077FD78 /* Page5ViewController.swift */; };
+		CE9191EA2467D5330077FD78 /* Page6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9191E92467D5330077FD78 /* Page6ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +53,13 @@
 		CE85C9AA246717C900F1BE22 /* start.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = start.mov; sourceTree = "<group>"; };
 		CE85C9AC246719B000F1BE22 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CE8D9B8D24672CB900A28A2D /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		CE9191DB2467BA2D0077FD78 /* NewsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItems.swift; sourceTree = "<group>"; };
+		CE9191DD2467C94B0077FD78 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		CE9191E12467D3CD0077FD78 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		CE9191E32467D4370077FD78 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		CE9191E52467D49F0077FD78 /* Page4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4ViewController.swift; sourceTree = "<group>"; };
+		CE9191E72467D4D30077FD78 /* Page5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5ViewController.swift; sourceTree = "<group>"; };
+		CE9191E92467D5330077FD78 /* Page6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,7 @@
 		CE85C9972466E4DE00F1BE22 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CE9191DB2467BA2D0077FD78 /* NewsItems.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,7 +143,13 @@
 				CE85C9A62466E6AD00F1BE22 /* introViewController.swift */,
 				CE85C9A824670F4600F1BE22 /* LoginMovieViewController.swift */,
 				CE85C9AC246719B000F1BE22 /* BaseViewController.swift */,
+				CE9191DD2467C94B0077FD78 /* WebViewController.swift */,
 				CE8D9B8D24672CB900A28A2D /* Page1ViewController.swift */,
+				CE9191E12467D3CD0077FD78 /* Page2ViewController.swift */,
+				CE9191E32467D4370077FD78 /* Page3ViewController.swift */,
+				CE9191E52467D49F0077FD78 /* Page4ViewController.swift */,
+				CE9191E72467D4D30077FD78 /* Page5ViewController.swift */,
+				CE9191E92467D5330077FD78 /* Page6ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -264,11 +285,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE85C9AD246719B000F1BE22 /* BaseViewController.swift in Sources */,
+				CE9191DC2467BA2D0077FD78 /* NewsItems.swift in Sources */,
 				CE85C9842466DAC400F1BE22 /* AppDelegate.swift in Sources */,
+				CE9191E42467D4370077FD78 /* Page3ViewController.swift in Sources */,
 				CE85C9A924670F4600F1BE22 /* LoginMovieViewController.swift in Sources */,
+				CE9191E82467D4D30077FD78 /* Page5ViewController.swift in Sources */,
+				CE9191E22467D3CD0077FD78 /* Page2ViewController.swift in Sources */,
 				CE8D9B8E24672CB900A28A2D /* Page1ViewController.swift in Sources */,
 				CE85C9862466DAC400F1BE22 /* SceneDelegate.swift in Sources */,
+				CE9191E62467D49F0077FD78 /* Page4ViewController.swift in Sources */,
+				CE9191EA2467D5330077FD78 /* Page6ViewController.swift in Sources */,
 				CE85C9A72466E6AD00F1BE22 /* introViewController.swift in Sources */,
+				CE9191DE2467C94B0077FD78 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
